@@ -1,3 +1,7 @@
 module.exports = function main() {
-  // Write your code here
+  var sum =0;
+  arguments[0].split('').forEach(function(element){
+    sum += (parseInt(element));
+  })
+  return sum;
 };
